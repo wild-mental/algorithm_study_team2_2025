@@ -19,5 +19,10 @@ public class algoSolu3 {
     public static void main(String[] args) {
         algoSolu3 algo = new algoSolu3();
         algo.myImportantCoreMethod("아주 중요하고 방대한 작업");
+        // 1. 공유 부분은 (인터페이스, 메서드 시그니처 등) 나중에 임의로 수정하면 문제가 큼
+        // 2. 작업 히스토리를 남기지 않고 Force Push 를 함으로써
+        //    버전1 -> 버전2로 변경된 배경이 공유되지 않음
+        // 3. 유저2 입장에서는 혼자서 코드를 머지하고 에러를 해결할 수 없는 상태가 됨
+        //    개발자 인원에 맞는 생산성을 발휘할 수가 없는 상태가 됨
     }
 }
